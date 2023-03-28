@@ -7,8 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   const getValue = (selector)=>{
-    return document.querySelector(selector).value
-    
+    return document.querySelector(selector).value 
   }
 
   const form = document.querySelector('form');
