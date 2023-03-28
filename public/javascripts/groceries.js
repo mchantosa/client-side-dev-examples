@@ -11,17 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const name = getValue('input[id="name"]')
-    const quantity = getValue('input[id="quantity"]');
-    console.log(name)
-    console.log(quantity)
+    const quantity = getValue('input[id="quantity"]') || 1;
 
     const list = document.querySelector('ul[id="grocery-list"]');
-    //add to list
     const listElement = document.createElement('li')
     listElement.textContent = quantity + ' ' + name;
-
     list.append(listElement);
-    //clear name and quantity
+    
     setValue('input[id="name"]', '')
     setValue('input[id="quantity"]', '')
   })
