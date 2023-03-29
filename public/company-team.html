@@ -5,6 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheets/company-site.css" />
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="javascripts/company-people.js"></script>
+    <script src="javascripts/company-team.js"></script>
   </head>
   <body>
     <header>
@@ -25,35 +29,12 @@
         <article>
           <h2>Team</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniadolor</p>
-          <ul>
-            <li>
-              <a href="#">
-                <img src="images/company_img_kevin.jpg" alt="Kevin Wang" />
-                Kevin
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="images/company_img_louis.jpg" alt="Louis Burton" />
-                Louis
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="images/company_img_kasper.jpg" alt="Kasper Salto" />
-                Kasper
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="images/company_img_chris.jpg" alt="Chris Lee" />
-                Chris
-              </a>
-            </li>
+          <ul id="people">
           </ul>
         </article>
       </div>
     </main>
+    
 
     <footer>
       <p>

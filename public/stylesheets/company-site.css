@@ -264,4 +264,11 @@ footer li a.instagram { background-position: 0 -138px; }
   #team p {
     padding: 0 30px 40px 30px;
   }
+
+  #modal {
+    position: absolute;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+  }
 }
