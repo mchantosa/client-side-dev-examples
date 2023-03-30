@@ -4,5 +4,6 @@ This repo aggregates several examples of client side web development. I wrapped 
 
 ## Examples
 
-1. [Simple calculator](./simple-calculator.html)
-2. 
+1. [Simple calculator](./calculator/simple-calculator.html)
+2. [Grocery List](./grocery-list/groceries.html)
+3. [Company Site](./company/home.html)
