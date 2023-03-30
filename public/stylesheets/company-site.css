@@ -7,7 +7,7 @@ body {
   background: #2f2840 url("../images/company_bg_body.gif") 50% 0 repeat;
 }
 
-a, span {
+a {
   text-decoration: none;
   color: #3e59b2;
 }

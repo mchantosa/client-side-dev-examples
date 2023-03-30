@@ -18,14 +18,14 @@ const peopleTemplate = Handlebars.compile(
 const personDetailsTemplate = Handlebars.compile(
   `<div id="modal">
     <div id="modal-content">
-      <div class="close">
+      <a href="#" id="close">
         &times;
-      </div>
-      <div>
+      </a>
+      <div id="identifiers">
         <img src="{{picture}}" alt="{{firstName}} {{lastName}}"/>
         <span>{{firstName}} {{lastName}}</span>
       </div>
-      <p>
+      <p id="bio">
         {{bio}} 
       </p>
     </div>
@@ -47,8 +47,14 @@ $(function() {
     e.preventDefault();
     const personId = parseInt($(e.target).closest('a').attr('data-id'));
     const person = getPerson(personId);
-    //console.log(person)
     $('body').append(personDetailsTemplate(person))
+    $('#modal').animate({ backgroundColor: "rgba( 0, 0, 0, .7)"}, 'slow');
+    $('#close').on('click', (e) => {
+      e.preventDefault();
+      $('#modal').remove();
+    })
   })
+
+
 })
 
