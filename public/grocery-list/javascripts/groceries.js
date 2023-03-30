@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     listElement.textContent = quantity + ' ' + name;
     list.append(listElement);
     
-   form.reset();
+    form.reset();
   })
 
 })

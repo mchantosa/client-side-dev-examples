@@ -19,7 +19,7 @@ const personDetailsTemplate = Handlebars.compile(
   `<div id="modal">
     <div id="modal-content">
       <a href="#" id="close">
-        &times;
+        <img src="images/icon_close.png" alt="close"/>
       </a>
       <div id="identifiers">
         <img src="{{picture}}" alt="{{firstName}} {{lastName}}"/>

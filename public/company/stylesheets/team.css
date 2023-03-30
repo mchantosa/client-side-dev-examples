@@ -41,7 +41,12 @@ span {
   color: #3e59b2;
 }
 
-#modal img {
+#identifiers img {
   width: 96px;
   margin: 0 30px 0 0;
+}
+
+#close img {
+  height: 30px;
+  width: 30px;
 }
