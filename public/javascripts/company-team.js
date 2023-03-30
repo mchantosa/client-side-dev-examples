@@ -48,7 +48,7 @@ $(function() {
     const personId = parseInt($(e.target).closest('a').attr('data-id'));
     const person = getPerson(personId);
     $('body').append(personDetailsTemplate(person))
-    $('#modal').animate({ backgroundColor: "rgba( 0, 0, 0, .7)"}, 'slow');
+    $('#modal').animate({ backgroundColor: "rgba( 0, 0, 0, .4)"}, 'slow');
     $('#close').on('click', (e) => {
       e.preventDefault();
       $('#modal').remove();
