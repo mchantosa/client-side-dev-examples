@@ -6,17 +6,17 @@ var images = [
   },
   {
     id:2,
-    src:"https://via.placeholder.com/1200x900",
+    src:"https://via.placeholder.com/1200x900/000000",
     title: "Photo 2"
   },
   {
     id:3,
-    src:"https://via.placeholder.com/1200x900",
+    src:"http://via.placeholder.com/1200x900/66cc33/f0f0f0",
     title: "Photo 3"
   },
   {
     id:4,
-    src:"https://via.placeholder.com/1200x900",
+    src:"http://via.placeholder.com/1200x900/993535/aaa",
     title: "Photo 4"
   }
 ]

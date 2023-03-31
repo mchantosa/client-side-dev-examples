@@ -21,4 +21,4 @@ This repo aggregates several examples of client side web development. I wrapped 
       -  Partial templates
     - Modal pop up
     - Background overlay
-1. [Photo Gallery](./photo-gallery/slideshow.html)
+1. [Photo Gallery](./photo-gallery/gallery.html)
