@@ -9,12 +9,12 @@ This repo aggregates several examples of client side web development. I wrapped 
     - Repurposed form submission
 1. [Grocery List](./grocery-list/groceries.html)
     - Browser API
-      - Create/append element
+      - Create/Append element
     - Tailored print view
 1. [Company Site](./company/home.html)
     - JQuery UI (necessary for background_color manipulation)
     - JQuery
-      - Create/append element
+      - Create/Append element
       - Animation
     - Handle bars
       -  Templates
@@ -22,3 +22,6 @@ This repo aggregates several examples of client side web development. I wrapped 
     - Modal pop up
     - Background overlay
 1. [Photo Gallery](./photo-gallery/gallery.html)
+    - Carousel
+    - FadeIn/FadeOut
+    - Timeout
