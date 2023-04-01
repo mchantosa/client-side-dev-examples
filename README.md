@@ -22,6 +22,9 @@ This repo aggregates several examples of client side web development. I wrapped 
     - Modal pop up
     - Background overlay
 1. [Photo Gallery](./photo-gallery/gallery.html)
-    - Carousel
+    - JQuery
     - FadeIn/FadeOut
+    - Carousel
     - Timeout
+1. [Inventory Form](./inventory-form/form.html)
+    - Un-jQuery
