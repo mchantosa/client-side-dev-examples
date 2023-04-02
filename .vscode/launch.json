@@ -1,0 +1,12 @@
+{
+  "configurations": [
+
+    {
+      "type": "chrome",
+      "name": "http://localhost:3000/inventory-form/form.html",
+      "request": "launch",
+      "url": "http://localhost:3000/inventory-form/form.html",
+      "webRoot": "${workspaceFolder}/public"
+    }
+  ]
+}
