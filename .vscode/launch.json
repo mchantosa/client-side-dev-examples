@@ -1,12 +1,11 @@
 {
   "configurations": [
-
     {
       "type": "chrome",
-      "name": "http://localhost:3000/inventory-form/form.html",
+      "name": "guess-a-word",
       "request": "launch",
-      "url": "http://localhost:3000/inventory-form/form.html",
-      "webRoot": "${workspaceFolder}/public"
+      "url": "http://localhost:3000/guess-a-word/index.html",
+      // "webRoot": "${workspaceFolder}/public"
     }
   ]
 }

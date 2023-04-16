@@ -28,3 +28,5 @@ This repo aggregates several examples of client side web development. I wrapped 
     - Timeout
 1. [Inventory Form](./inventory-form/form.html)
     - Un-jQuery
+1. [Guess a word](./guess-a-word/index.html)
+    - Interactive game (no api hooked up, static list of words, when you run out of words, it just stops working)
